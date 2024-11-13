@@ -2,5 +2,5 @@
 TUGAS UTS PEMROGRAMAN IOT LANJUT - MUHAMAD USRI YUSRON 152022132
 
 
-backend -> php
-front-end -> js native
+* backend -> php
+* front-end -> js native
