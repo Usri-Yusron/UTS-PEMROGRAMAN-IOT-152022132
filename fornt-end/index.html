@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Suhu</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> <!-- Chart.js Library -->
+
+    <!-- js eksternal -->
+    <script src="script.js"></script>
+
+    <!-- css eksternal -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Data Suhu</h1>
+    
+    <div id="summary">
+        <h2>Summary</h2>
+        <p>Suhu Max: <span id="suhuMax"></span> °C</p>
+        <p>Suhu Min: <span id="suhuMin"></span> °C</p>
+        <p>Suhu Rata-rata: <span id="suhuRata"></span> °C</p>
+    </div>
+    
+    <div id="chartContainer">
+        <h2>Grafik Suhu Max dengan Kelembaban Tertinggi</h2>
+        <canvas id="suhuChart"></canvas> <!-- Canvas untuk Chart.js -->
+    </div>
+
+    <div id="mountYearMax">
+        <h2>Bulan dan Tahun Max</h2>
+        <ul id="mountYearList"></ul>
+    </div>
+</body>
+</html>
